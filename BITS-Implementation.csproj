@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Trying_again</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BITSReference10_1">
+      <HintPath>..\..\..\..\..\Program Files (x86)\BITS Manager\BITSReference10_1.dll</HintPath>
+    </Reference>
+    <Reference Include="BITSReference5_0">
+      <HintPath>..\..\..\..\..\Program Files (x86)\BITS Manager\BITSReference5_0.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
